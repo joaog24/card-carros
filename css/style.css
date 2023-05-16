@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    max-width: 1440px;
+    max-height: 800px;
+}
+body{
+    background-color: hsl(0, 4%, 82%);
+}
+main{
+    display: flex;
+
+    align-items: center;
+    height: 812px;
+}
+
+.containers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+  height:110px ;
+  width: 90%; /* Defina a altura desejada */
+  overflow: hidden;
+}
+.card1,.card2,.card3{
+    height: 400px;
+    width: 25%;
+    height: 500px;
+    padding: 15px;
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+}
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.imgslogo{
+   margin-right: 300px;
+    width: 100px;
+}
+h1, p, img{
+    padding: 20px;
+}
+
+h1,p{
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font: 700;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    
+}
+
+input{
+    margin-top: 100px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 18px;
+    font: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+
+}
+.input-align {
+    display: block;
+    margin: 100px 10px;
+}
+
+#bt1{
+color: hsl(31, 77%, 52%);
+}
+
+#bt1:hover{
+    background-color:hsl(31, 77%, 52%);
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+}
+#bt2:hover{
+    background-color:hsl(184, 100%, 22%);
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+}
+#bt3:hover{
+    background-color:hsl(179, 100%, 13%);
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+}
+
+#bt2{
+    color: hsl(184, 100%, 22%);
+}
+#bt3{
+        
+    color: hsl(179, 100%, 13%);
+
+}
